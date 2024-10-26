@@ -31,13 +31,13 @@ header {
 }
 
 header h1 {  
-  font-size: 50px; 
+  font-size: 80px; 
   font-weight: 200;
   line-height: 1.5; 
 }
 
 header h2{
-  font-size: 40px; 
+  font-size: 60px; 
   font-weight: 200;
   line-height: 1.5; 
   padding: 10px;
@@ -67,10 +67,10 @@ header a{
         padding: 40px 0;
     }
     header h1{
-        font-size: 25px;
+        font-size: 40px;
     }
     header h2{
-        font-size: 20px;
+        font-size: 30px;
     }
     header h3{
         font-size: 12px;
