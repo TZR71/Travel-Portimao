@@ -1,6 +1,7 @@
 :root{
-   --color:antiquewhite;
+   --color:rgb(250, 234, 214);
    --border-radius: 5px;
+   --background-color: rgba(250,234,214,0.7);
 }
 body{
     font-family: "poppins";
@@ -20,10 +21,9 @@ header {
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/header.jpg") ;  
-  padding: 130px;  
+  padding: 200px 0;  
   text-align: center;
-  background-size: cover;
-  background-position: center;
+  background-size: cover;  
   background-repeat: no-repeat;
   color: var(--color);
   border-radius:var(--border-radius);
@@ -56,7 +56,7 @@ header a{
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
-    background-color:var(--color);
+    background-color:var(--background-color);
     text-decoration: none;
     padding: 10px;
     border-radius:var(--border-radius);
@@ -74,5 +74,10 @@ header a{
     }
     header h3{
         font-size: 12px;
+    }
+    header a{
+        padding:3px;
+        font-size: 10px;
+      
     }
 }
