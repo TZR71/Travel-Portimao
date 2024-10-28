@@ -14,15 +14,27 @@ body{
     max-width: 1300px;
     margin: 0 auto;     
 }
+.img-responsive{
+    max-height: 80%;
+}
 .grid{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
     grid-gap: 60px;
+    
+}
+.grid-2-columns{
+    grid-template-columns: 2fr 2fr;
+}
+.grid-3-column{
+    grid-template-columns: 1fr 2fr 2fr;
+    
+
 }
 
 section{
     max-width: 1200px;
     margin: 0 auto;
+    padding:100px 0;
 }
 
 header {
@@ -70,6 +82,8 @@ header a{
     border-radius:var(--border-radius);
     border: 1px solid;
 }
+
+main
 
 footer{
     color:var(--color);
@@ -130,5 +144,12 @@ footer a:hover{
         padding:3px;
         font-size: 10px;
       
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    section{
+        padding:30px;}
     }
 }
