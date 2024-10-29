@@ -1,12 +1,13 @@
 :root{
    --color:white;
    --border-radius: 5px;
-   --background-color: rgba(250,234,214,0.7);
+   --background-color: rgba(255, 255, 255, 0.7);
+   --main-background-color: rgb(8, 6, 20);
 }
 body{
     font-family: "poppins";
-    background-color: rgb(8, 6, 20);
-    color:var(--color)
+    background-color: var(--main-background-color);
+    color:var(--color);
 }
 
 
@@ -16,6 +17,7 @@ body{
 }
 .img-responsive{
     max-height: 80%;
+    border-radius: var(--border-radius);
 }
 .grid{
     display: grid;
@@ -24,21 +26,60 @@ body{
 }
 .grid-2-columns{
     grid-template-columns: 2fr 2fr;
+    margin: 100px 40px;
+    
 }
-.grid-3-column{
+.grid-3-columns{
     grid-template-columns: 1fr 2fr 2fr;
     
 
 }
-.cards{
-    text-align: center;
-}
 
+.card-3-columns{
+grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+.card{
+   border: 1px solid white;
+   border-radius: var(--border-radius);
+   margin: 30px 0;
+}
+.card-header{
+    height:200px;
+}
+.card-body{
+    padding:30px
+}
+.card-footer{
+    padding: 0 30px 30px;
+}
+.btn{
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding:16px;
+}
+.btn:hover{
+    color: var(--color);
+    opacity: 50%;    
+    background-color:var(--main-background-color);
+}
+.img-card-grid{
+   max-height: 220px;
+   padding: 10px;
+
+}
 
 section{
     max-width: 1200px;
     margin: 0 auto;
-    padding:100px 0;
+    padding:20px 0;
 }
 
 header {
@@ -74,6 +115,7 @@ header h3{
 
 }
 header a{
+    color: var(--main-background-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1,5;
@@ -86,8 +128,14 @@ header a{
     border-radius:var(--border-radius);
     border: 1px solid;
 }
+header a:hover{
+    color: var(--color);
+    opacity: 50%;    
+    background-color:var(--main-background-color);       
+    border: 1px solid white;
+}
 
-main
+
 
 footer{
     color:var(--color);
@@ -156,4 +204,3 @@ footer a:hover{
     section{
         padding:30px;}
     }
-}
