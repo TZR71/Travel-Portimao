@@ -18,6 +18,7 @@ body{
 .img-responsive{
     max-height: 80%;
     border-radius: var(--border-radius);
+    
 }
 .grid{
     display: grid;
@@ -26,7 +27,9 @@ body{
 }
 .grid-2-columns{
     grid-template-columns: 2fr 2fr;
-    margin: 100px 40px;
+    margin: 50px 40px 0;
+    max-height: 700px;
+    text-align: center;
     
 }
 .grid-3-columns{
