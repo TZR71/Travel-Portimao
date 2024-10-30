@@ -32,6 +32,9 @@ body{
     text-align: center;
     
 }
+.grid-2-columns-text{
+    padding-top: 50px;
+}
 .grid-3-columns{
     grid-template-columns: 1fr 2fr 2fr;
     
@@ -67,6 +70,8 @@ grid-template-columns: 1fr 1fr 1fr;
     letter-spacing: 3px;
     text-transform: uppercase;
     padding:16px;
+    border: 1px solid white;
+    border-radius: var(--border-radius);
 }
 .btn:hover{
     color: var(--color);
@@ -137,7 +142,9 @@ header a:hover{
     background-color:var(--main-background-color);       
     border: 1px solid white;
 }
-
+p{
+    font-size: 22px;
+}
 
 
 footer{
