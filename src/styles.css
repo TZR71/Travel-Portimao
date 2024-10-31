@@ -25,18 +25,21 @@ body{
     grid-gap: 60px;
     
 }
-.grid-2-columns{
+.grid-2-columns{    
     grid-template-columns: 2fr 2fr;
-    margin-top:70px;
-    max-height: 700px;
+    margin-top:70px;    
     text-align: center;
     
        
 }
 
+.grid-2-columns-text{
+    max-height: 700px;
+}
 
-
-
+.grid-2-columns-img{
+    max-height: 700px;
+}
 .grid-3-columns{
     grid-template-columns: 1fr 2fr 2fr;
     
@@ -215,7 +218,8 @@ footer a:hover{
 }
 @media (max-width:960px){
     body{
-        text-align: center;
+        align-items: center;
+             
     }
     header{
         padding: 40px 0;
@@ -239,9 +243,18 @@ footer a:hover{
         grid-gap: 30px;
        
     }
+    .grid-2-columns{
+        text-align: center;
+        grid-gap:60px;
+        padding:0;
+    }
+    .grid-2-columns img{
+        margin-top: 70px;
+        
+        
+        
+    }
     section{
         padding:30px;}
-    .cards{
-        margin-top: 600px;
-        text-align: left;
-    }
+    
+}
