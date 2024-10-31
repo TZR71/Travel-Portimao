@@ -214,6 +214,9 @@ footer a:hover{
     color:rgb(178, 66, 243);
 }
 @media (max-width:960px){
+    body{
+        
+    }
     header{
         padding: 40px 0;
     }
@@ -234,7 +237,10 @@ footer a:hover{
     .grid{
         grid-template-columns: 1fr;
         grid-gap: 30px;
+       
     }
     section{
         padding:30px;}
+    .cards{
+        margin-top: 550px;
     }
