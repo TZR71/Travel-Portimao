@@ -215,7 +215,7 @@ footer a:hover{
 }
 @media (max-width:960px){
     body{
-        align-items: center;
+        text-align: center;
     }
     header{
         padding: 40px 0;
@@ -242,5 +242,6 @@ footer a:hover{
     section{
         padding:30px;}
     .cards{
-        margin-top: 550px;
+        margin-top: 600px;
+        text-align: left;
     }
