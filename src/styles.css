@@ -105,18 +105,17 @@ header {
   background-size: cover;  
   background-repeat: no-repeat;
   color: var(--color);
-  border-radius:var(--border-radius);
-  aspect-ratio: 16/9; 
+  border-radius:var(--border-radius);  
 }
 
 header h1 {  
-  font-size: 80px; 
+  font-size: 75px; 
   font-weight: 300;
   line-height: 1.5; 
 }
 
 header h2{
-  font-size: 60px; 
+  font-size: 55px; 
   font-weight: 300;
   line-height: 1.5; 
   padding: 10px;
