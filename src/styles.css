@@ -27,14 +27,16 @@ body{
 }
 .grid-2-columns{
     grid-template-columns: 2fr 2fr;
-    margin: 50px 40px 0;
+    margin-top:70px;
     max-height: 700px;
     text-align: center;
     
+       
 }
-.grid-2-columns-text{
-    padding-top: 50px;
-}
+
+
+
+
 .grid-3-columns{
     grid-template-columns: 1fr 2fr 2fr;
     
@@ -70,6 +72,7 @@ grid-template-columns: 1fr 1fr 1fr;
     letter-spacing: 3px;
     text-transform: uppercase;
     padding:16px;
+    margin-bottom: 20px;
     border: 1px solid white;
     border-radius: var(--border-radius);
 }
@@ -87,9 +90,12 @@ grid-template-columns: 1fr 1fr 1fr;
 section{
     max-width: 1200px;
     margin: 0 auto;
-    padding:20px 0;
+    
 }
-
+p{
+    font-size: 25px;
+    
+}
 header {
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -115,12 +121,15 @@ header h2{
   line-height: 1.5; 
   padding: 10px;
 }
-header h3{
+h3{
   font-size: 26px; 
   font-weight: 400;
   line-height: 1.5; 
   letter-spacing: 3px;
 
+}
+h4{
+    font-size: 20px;
 }
 header a{
     color: var(--main-background-color);
@@ -142,10 +151,26 @@ header a:hover{
     background-color:var(--main-background-color);       
     border: 1px solid white;
 }
-p{
-    font-size: 22px;
+.cards p{
+    font-size: 20px;
 }
-
+.cards h3{
+    font-size: 25px;
+}
+.cards-headers{
+    padding:50px;
+}
+.last h3{   
+    line-height: 1;
+    margin-bottom: 7px;    
+}
+.last p{
+    margin-top: 12px; 
+}
+h2{
+    margin-bottom: 5px;
+    font-size: 30px;
+}
 
 footer{
     color:var(--color);
