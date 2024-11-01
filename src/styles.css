@@ -71,10 +71,14 @@ grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
 }
 .card-body{
-    padding:30px
+    padding:30px;
+    margin-top:10px;
 }
 .card-footer{
-    padding: 0 30px 30px;
+    max-height: 200px;
+    text-align: center;
+    margin-bottom: 15px;
+    
 }
 .btn{
     display: block;
@@ -114,7 +118,7 @@ section{
     
 }
 p{
-    font-size: 25px;
+    font-size: 20px;
     
 }
 header {
@@ -171,9 +175,7 @@ header a{
     background-color:var(--main-background-color);    
 }
 
-.cards p{
-    font-size: 20px;
-}
+
 .cards h3{
     font-size: 25px;
     
