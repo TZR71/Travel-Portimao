@@ -113,10 +113,15 @@ hr{
 .gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:60px;
+    text-align: center;
+    
 }
 
 .gallery-img{
-    max-width: 300px
+    display: block;
+    max-width: 300px;
+    
 }
 section{
     max-width: 1200px;
