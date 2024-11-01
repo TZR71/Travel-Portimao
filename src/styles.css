@@ -10,7 +10,10 @@ body{
     color:var(--color);
 }
 
-
+hr{
+    border:2px solid#1c3c85;
+    margin-top: 40px;
+}
 .container{
     max-width: 1300px;
     margin: 0 auto;     
@@ -55,6 +58,9 @@ grid-template-columns: 1fr 1fr 1fr;
    border: 1px solid white;
    border-radius: var(--border-radius);
    margin: 30px 0;
+   background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+   
+  
 }
 .card-header{
     height:200px;
@@ -79,11 +85,8 @@ grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid white;
     border-radius: var(--border-radius);
 }
-.btn:hover{
-    color: var(--color);
-    opacity: 50%;    
-    background-color:var(--main-background-color);
-}
+
+
 .img-card-grid{
    max-height: 220px;
    padding: 10px;
@@ -93,6 +96,7 @@ grid-template-columns: 1fr 1fr 1fr;
 section{
     max-width: 1200px;
     margin: 0 auto;
+    
     
 }
 p{
@@ -147,17 +151,18 @@ header a{
     border-radius:var(--border-radius);
     border: 1px solid;
 }
-header a:hover{
+ a:hover{
     color: var(--color);
     opacity: 50%;    
-    background-color:var(--main-background-color);       
-    border: 1px solid white;
+    background-color:var(--main-background-color);    
 }
+
 .cards p{
     font-size: 20px;
 }
 .cards h3{
     font-size: 25px;
+    
 }
 .cards-headers{
     padding:50px;
@@ -180,7 +185,8 @@ footer{
     background-size: cover;  
     background-repeat: no-repeat;
     color: var(--color);       
-    padding: 100px 0;
+    padding: 80px 0;
+    margin-top: 80px;
 }
 footer h3{
     font-weight: 500;
@@ -213,9 +219,7 @@ footer a{
 
     
 }
-footer a:hover{
-    color:rgb(178, 66, 243);
-}
+
 @media (max-width:960px){
     body{
         align-items: center;
