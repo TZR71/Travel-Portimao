@@ -282,7 +282,8 @@ footer a{
 @media (max-width:960px){
     body{
         display: flex;
-        align-items: center;           
+        align-items: center; 
+        align-content: center;          
     }    
     header{
         padding: 40px 0;
