@@ -12,7 +12,7 @@ body{
 
 hr{
     border:2px solid rgb(39, 32, 68);
-    margin-top: 40px;
+    margin: 50px;
 }
 .container{
     max-width: 1300px;
@@ -30,7 +30,8 @@ hr{
 }
 .grid-2-columns{    
     grid-template-columns: 2fr 2fr;
-    margin-top:70px;    
+    margin-top:40px;    
+   
              
 }
 
@@ -117,6 +118,13 @@ hr{
     border: 0.5px solid white;
     border-radius: var(--border-radius);
 }
+
+.image-gallery h2{
+      padding-bottom: 30px;
+    } 
+.image-gallery h3{
+      padding-top:20px;
+    }
 .gallery-4-columns{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap:10px;
@@ -217,11 +225,10 @@ header a{
 
 .cards h3{
     font-size: 25px;
+    margin-top: none;
     
 }
-.cards-headers{
-    padding:50px;
-}
+
 .mid h3{   
     line-height: 1;
     margin-bottom: 7px;    
@@ -332,5 +339,6 @@ footer a{
     }
     .gallery-img-land{
         max-width: 350px;       
-    }          
+    }  
+           
 }
