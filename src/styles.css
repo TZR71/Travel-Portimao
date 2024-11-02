@@ -313,7 +313,7 @@ footer a{
         padding:30px;
     }
     hr{
-        max-width: 600px;
+        max-width: 400px;
         height:2px;
         margin:15px auto;   
         text-align: center;   
@@ -331,6 +331,9 @@ footer a{
     
     .grid-2-columns h3{
         margin-top: 0px;
+    }
+    .grid-2-columns-img{
+        margin-bottom:40px;
     }
     .grid-1-column{
         padding-top:0px;
