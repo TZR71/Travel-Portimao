@@ -12,7 +12,10 @@ body{
 
 hr{
     border:2px solid rgb(39, 32, 68);
-    margin: 50px;
+    margin: 50px auto;
+    height: 4px;    
+    max-width: 1100px;
+    
 }
 .container{
     max-width: 1300px;
@@ -293,6 +296,7 @@ footer a{
     }    
     header{
         padding: 40px 0;
+        margin-bottom: 40px;
     }
     header h1{
         font-size: 40px;
@@ -301,12 +305,14 @@ footer a{
         font-size: 30px;
     }
     header h3{
-        font-size: 12px;
+        font-size: 12px;       
+        
     }
     header a{
         padding:3px;
         font-size: 10px;      
     }
+    
     h4{
         font-size:18px ;
     }
@@ -314,7 +320,12 @@ footer a{
         padding:30px;
     }
     hr{
-        display: none;
+        max-width: 600px;
+        height:2px;
+        margin:15px auto;   
+        text-align: center;     
+   
+       
         }
     .grid{
         grid-template-columns: 1fr;
@@ -327,6 +338,9 @@ footer a{
     }
     .grid-2-columns img{
         margin-top: 70px;
+    }
+    .grid-2-columns h3{
+        margin-top: 0px;
     }
     .grid-1-column{
         padding-top:0px;
