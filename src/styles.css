@@ -285,15 +285,19 @@ footer a{
     opacity:0.9;
     line-height: 33px;
 }
+   
 .table-container{
-    padding:0 130px;
-    text-decoration-line: none;
-}
+        max-width: 100%;
+        
+        margin-left: 20px;
+    }
+
 th, td{
     padding:15px;
-    font-size: 12px;
     text-align: center;
 }
+
+
 
 @media (max-width:960px){
     body{
@@ -365,5 +369,8 @@ th, td{
         max-width: 350px; 
         margin:0px;    
     }  
+    .table-container{
+        display: none;
+    }
            
 }
