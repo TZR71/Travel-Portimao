@@ -252,6 +252,7 @@ footer{
     padding: 80px 0;
     margin-top: 80px;
     
+    
 }
 footer h3{
     font-weight: 500;
@@ -283,8 +284,15 @@ footer a{
     font-size: 18px;
     opacity:0.9;
     line-height: 33px;
-
-    
+}
+.table-container{
+    padding:0 130px;
+    text-decoration-line: none;
+}
+th, td{
+    padding:15px;
+    font-size: 12px;
+    text-align: center;
 }
 
 @media (max-width:960px){
