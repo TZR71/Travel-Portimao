@@ -31,7 +31,7 @@ hr{
 .grid-2-columns{    
     grid-template-columns: 2fr 2fr;
     margin-top:70px;    
-    text-align: center;          
+             
 }
 
 .grid-2-columns-text{
@@ -40,6 +40,7 @@ hr{
 
 .grid-2-columns-img{
     max-height: 700px;
+    text-align: center;
 }
 .grid-3-columns{
     grid-template-columns: 1fr 1fr 1fr;     
@@ -148,9 +149,7 @@ hr{
 }
 section{
     max-width: 1200px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;    
 }
 p{
     font-size: 20px;
@@ -283,7 +282,7 @@ footer a{
     body{
         display: flex;
         align-items: center; 
-        align-content: center;          
+        margin:10px;          
     }    
     header{
         padding: 40px 0;
