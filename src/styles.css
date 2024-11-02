@@ -147,7 +147,7 @@ hr{
    border-radius: var(--border-radius);
     
 }
-.gallery-img-land{
+.gallery-img-landscape{
    max-height: 400px;
    padding: 5px;  
    margin:15px; 
@@ -231,11 +231,11 @@ header a{
     
 }
 
-.mid h3{   
+.left h3{   
     line-height: 1;
     margin-bottom: 7px;    
 }
-.mid p{
+.left p{
     margin-top: 12px; 
 }
 h2{
@@ -316,14 +316,12 @@ th, td{
         font-size: 30px;
     }
     header h3{
-        font-size: 12px;       
-        
+        font-size: 12px;          
     }
     header a{
         padding:3px;
         font-size: 10px;      
-    }
-    
+    }    
     h4{
         font-size:18px ;
     }
@@ -361,11 +359,11 @@ th, td{
     }
     .gallery-landscape{
         padding:5px;
-            }       
+    }       
     .gallery-img{
         margin:0px;
     }
-    .gallery-img-land{
+    .gallery-img-landscape{
         max-width: 350px; 
         margin:0px;    
     }  
