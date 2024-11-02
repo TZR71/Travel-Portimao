@@ -41,7 +41,11 @@ hr{
 .grid-2-columns-img{
     max-height: 700px;    
     text-align: center;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius); 
+    padding: 5px;  
+    margin:15px; 
+    border: 0.5px solid white;
+   
 }
 .grid-3-columns{
     grid-template-columns: 1fr 1fr 1fr;     
@@ -169,6 +173,8 @@ header {
   background-repeat: no-repeat;
   color: var(--color);
   border-radius:var(--border-radius);  
+  
+  
 }
 
 header h1 {  
