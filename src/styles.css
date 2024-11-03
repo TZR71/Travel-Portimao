@@ -242,7 +242,7 @@ footer a{
     body{
         display: flex;
         align-items: center; 
-        margin:10px;          
+        margin:auto;          
     }    
     header{
         padding: 40px 0;
